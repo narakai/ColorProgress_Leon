@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA153863FB4907A5EF9238B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15F6D6E0610FE73BFCBCA /* Main.storyboard */; };
+		FCA1564871A96E8DE99ACBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA15882FFC9FDAD3CB07541 /* Assets.xcassets */; };
+		FCA15760B1F52856462AF950 /* ColorProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1541A61D00CC6CE4FC351 /* ColorProgress.swift */; };
+		FCA159B86CBD88FBF59485E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA150A64F9DC0EE989C6D07 /* AppDelegate.swift */; };
+		FCA15B153DB67EE9FF28EA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA15551B9794D66AF14822D /* LaunchScreen.storyboard */; };
+		FCA15E6AF4555548CCE55320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA159760F54054605BE18AE /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCA150A64F9DC0EE989C6D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA1541A61D00CC6CE4FC351 /* ColorProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorProgress.swift; sourceTree = "<group>"; };
+		FCA157E2FA8A3691D15E726D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA15882FFC9FDAD3CB07541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA159760F54054605BE18AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA15CC30446EC1A7871FA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		FCA15D310055957610CDD25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA15ED102A16A1323A1BC8C /* ColorProgress_Leon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorProgress_Leon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA15BCB9BC2FA9737F4C6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA157779F69A3752B6940E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA15ED102A16A1323A1BC8C /* ColorProgress_Leon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA157BBB31C8D521958F988 /* ColorProgress_Leon */ = {
+			isa = PBXGroup;
+			children = (
+				FCA15CC30446EC1A7871FA3E /* Info.plist */,
+				FCA15882FFC9FDAD3CB07541 /* Assets.xcassets */,
+				FCA15551B9794D66AF14822D /* LaunchScreen.storyboard */,
+				FCA150A64F9DC0EE989C6D07 /* AppDelegate.swift */,
+				FCA15F6D6E0610FE73BFCBCA /* Main.storyboard */,
+				FCA159760F54054605BE18AE /* ViewController.swift */,
+				FCA1541A61D00CC6CE4FC351 /* ColorProgress.swift */,
+			);
+			path = ColorProgress_Leon;
+			sourceTree = "<group>";
+		};
+		FCA15C9F4E000F9ED51B67B2 = {
+			isa = PBXGroup;
+			children = (
+				FCA157779F69A3752B6940E4 /* Products */,
+				FCA157BBB31C8D521958F988 /* ColorProgress_Leon */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA1595FB3A3B8476BA55B82 /* ColorProgress_Leon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA15151C7A15918C1A6994A /* Build configuration list for PBXNativeTarget "ColorProgress_Leon" */;
+			buildPhases = (
+				FCA15D7B9339E9B2CA1A6257 /* Sources */,
+				FCA15BCB9BC2FA9737F4C6FB /* Frameworks */,
+				FCA15D665C78EA002329D69E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorProgress_Leon;
+			productName = ColorProgress_Leon;
+			productReference = FCA15ED102A16A1323A1BC8C /* ColorProgress_Leon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA152B0620313B72E6DAB8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = clem;
+				TargetAttributes = {
+					FCA1595FB3A3B8476BA55B82 = {
+						DevelopmentTeam = FCKB72E74L;
+					};
+				};
+			};
+			buildConfigurationList = FCA1596230F6249DCF8A5E9B /* Build configuration list for PBXProject "ColorProgress_Leon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCA15C9F4E000F9ED51B67B2;
+			productRefGroup = FCA157779F69A3752B6940E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA1595FB3A3B8476BA55B82 /* ColorProgress_Leon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA15D665C78EA002329D69E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA1564871A96E8DE99ACBE8 /* Assets.xcassets in Resources */,
+				FCA15B153DB67EE9FF28EA4A /* LaunchScreen.storyboard in Resources */,
+				FCA153863FB4907A5EF9238B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA15D7B9339E9B2CA1A6257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA159B86CBD88FBF59485E5 /* AppDelegate.swift in Sources */,
+				FCA15E6AF4555548CCE55320 /* ViewController.swift in Sources */,
+				FCA15760B1F52856462AF950 /* ColorProgress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCA15551B9794D66AF14822D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA157E2FA8A3691D15E726D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA15F6D6E0610FE73BFCBCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA15D310055957610CDD25B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA1549AEFF82887A44DE8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = ColorProgress_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.ColorProgress-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+			};
+			name = Release;
+		};
+		FCA159ADB875734DAD9B2B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA15D20BDEF8B335FE31F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA15E3B36725AF37E708672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FCKB72E74L;
+				INFOPLIST_FILE = ColorProgress_Leon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clem.www.ColorProgress-Leon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA15151C7A15918C1A6994A /* Build configuration list for PBXNativeTarget "ColorProgress_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA15E3B36725AF37E708672 /* Debug */,
+				FCA1549AEFF82887A44DE8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA1596230F6249DCF8A5E9B /* Build configuration list for PBXProject "ColorProgress_Leon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA15D20BDEF8B335FE31F29 /* Debug */,
+				FCA159ADB875734DAD9B2B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA152B0620313B72E6DAB8F /* Project object */;
+}
